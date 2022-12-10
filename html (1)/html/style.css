@@ -50,6 +50,12 @@ body{
     object-fit: stretch ;
 }
 
+.title{
+    
+    color:#000000;
+    font-size: 25px;
+    text-align: center;
+}
 .instruction{    
     border: none;
     max-width: 1200px;
