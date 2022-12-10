@@ -12,7 +12,7 @@ body{
 }
 
 .upload-container{
-    top:27%;
+    top:450px;
     left:50%;
     transform:translate(-50%,-50%);
     position:absolute;
@@ -47,11 +47,21 @@ body{
     color:#000000;
     font-size: 25px;
     background-image: url(background.png);
+    object-fit: stretch ;
+}
+
+.instruction{    
+    border: none;
+    max-width: 1200px;
+    margin: auto;
+    left:50%;
+    padding: 5px;
+    width: 500px;
+    text-align: center;
 }
 
 .gallery{
 
-    
     right: 0px;
     left:0px;
     margin: 10px;
@@ -70,20 +80,13 @@ body{
     border: 10px solid gray;
     max-width: 920px;
     margin:auto;
-    margin-top:250px;
+    margin-top:90px;
     justify-content: center;
 }
 .row::after {
     content: "";
     display: table;
     clear: both;
-}
-
-
-.desc{
-    padding: 10px;
-    text-align: center;
-    height: 160px;
 }
 
 .alert {
